@@ -13,7 +13,7 @@ To get started with the app, clone the repo and then install the needed gems:
 ```
 $ cd ~/tmp
 $ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git sample_app
-$ cd sample_app
+$ cd devland
 $ bundle install --without production
 ```
 
