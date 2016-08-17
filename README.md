@@ -55,6 +55,12 @@ where you can find the branch name using
 $ git branch -a
 ```
 
+if you need to drop tables, re-migrate, and re-seed. 
+
+```
+$ rails db:reset
+```
+
 A branch called `remotes/orgin/foo-bar` can be checked out using `git checkout foo-bar`.
 
 For more information, see the
