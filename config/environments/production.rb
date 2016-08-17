@@ -66,12 +66,12 @@ Rails.application.configure do
   host = 'arcane-scrubland-85798.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :address        => 'smtp.sendgrid.net',
+    :address        => 'smtp.mailgun.org',
     :port           => '587',
     :authentication => :plain,
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => 'heroku.com',
+    :domain         => 'devland.io',
     :enable_starttls_auto => true
   }
   
