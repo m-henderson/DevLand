@@ -1,10 +1,6 @@
-# Ruby on Rails Tutorial sample application
+# DevLand 
 
-This is the reference implementation of the sample application for the 4th edition of [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://www.railstutorial.org/) by [Michael Hartl](http://www.michaelhartl.com/).
-
-## License
-
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/) is available jointly under the MIT License and the Beerware License. See [LICENSE.md](LICENSE.md) for details.
+This is the reference implementation of the DevLand application. If you are interested in helping out, please do not hesitate to do so. We have a lot of features that have yet to be programmed and created within the application itself, check the issues and get to coding if you are interested in contributing. 
 
 ## Getting started
 
@@ -44,13 +40,8 @@ $ rails server -b $IP -p $PORT
 
 instead.
 
-To check out the code for a particular chapter, use
 
-```
-$ git checkout chapter-branch-name
-```
-
-where you can find the branch name using
+You can find the branch name using
 
 ```
 $ git branch -a
@@ -61,8 +52,3 @@ if you need to drop tables, re-migrate, and re-seed.
 ```
 $ rails db:reset
 ```
-
-A branch called `remotes/orgin/foo-bar` can be checked out using `git checkout foo-bar`.
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
