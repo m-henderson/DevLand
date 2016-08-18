@@ -12,8 +12,9 @@ To get started with the app, clone the repo and then install the needed gems:
 
 ```
 $ cd ~/tmp
-$ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git sample_app
+$ mkdir devland
 $ cd devland
+$ git clone https://github.com/m-henderson/DevLand.git
 $ bundle install --without production
 ```
 
